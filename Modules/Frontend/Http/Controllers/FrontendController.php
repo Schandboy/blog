@@ -2,6 +2,7 @@
 
 namespace Modules\Frontend\Http\Controllers;
 
+use Cornford\Googlmapper\Facades\MapperFacade as Mapper;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -39,6 +40,7 @@ class FrontendController extends Controller
             ->where('categories.name','food')
             ->orderBy('blogs.id', 'DESC')
             ->first();
+
         return view('frontend::index',compact('blogs','technology','travel','food'));
     }
 

@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title', get_school_info('site_title').' | Add Photos')
+@section('title', 'Susan Blog | Add Photos')
 @section('head')
     <style>
         img{
@@ -41,6 +41,7 @@
                 <h4 class="card-title">Create Gallery</h4>
             </div>
         </div>
+
         <div class="card-body ">
             <form method="post" action="{{url('gallery')}}" class="form-horizontal process" enctype="multipart/form-data">
                 @csrf
@@ -87,6 +88,7 @@
             </form>
         </div>
     </div>
+
 </div>
 @stop
 @section('script')

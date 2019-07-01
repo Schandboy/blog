@@ -66,7 +66,7 @@
 
     </style>
 @stop
-@section('title', get_school_info('site_title').' | Gallery')
+@section('title','Susan Blog | Gallery')
 @section('Body')
     <div class="container">
         <div class="row">

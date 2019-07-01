@@ -1,16 +1,25 @@
 @extends('frontend::layouts.master')
 @section('title','Home')
 @section('Body')
+<style>
 
+    h1:hover
+    {
+        /* CSS3 Transform Effect */
+        -webkit-transform: scale(1.2);     /* Safari & Chrome */
+        -moz-transform: scale(1.2);        /* Firefox */
+        -o-transform: scale(1.2);          /* Opera */
+    }
+</style>
     <div class="section section-header cd-section" id="headers">
         <div class="header-1">
-            <div class="page-header" style="background-image: url({{url('frontend/assets/img/bg1.JPG')}});">
+            <div class="page-header" style="background-image: url({{url('frontend/assets/img/back.jpg')}});">
                 <div class="filter"></div>
                 <div class="content-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6  ml-auto mr-auto">
-                                <h2 class="title"><strong>Susan's Blog</strong></h2>
+                                <h1 class="title" style=""><b><strong><font color="yellow">Susan's</font><font color="red"> Blog</font></strong></b></h1>
                                 <h3 class="description">Welcome</h3>
                             </div>
                         </div>
@@ -278,22 +287,22 @@
                     <div class="col-md-2 mr-auto">
                         <div class="testimonials-people">
                             <img class="left-first-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/samundra.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/nishan3.jpg')}}"
                                  alt=""/>
                             <img class="left-second-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/rajesh.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/archi1.jpg')}}"
                                  alt=""/>
                             <img class="left-third-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/richa3.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/sabina.jpg')}}"
                                  alt=""/>
                             <img class="left-fourth-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/ragen.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/aries.jpg')}}"
                                  alt=""/>
                             <img class="left-fifth-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/sapna1.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/sharmila.jpg')}}"
                                  alt=""/>
                             <img class="left-sixth-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/milan2.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/aryan.jpg')}}"
                                  alt=""/>
                         </div>
                     </div>
@@ -311,21 +320,21 @@
                                         <div class="card card-testimonial card-plain">
                                             <div class="card-avatar">
                                                 <img class="img"
-                                                     src="{{url('frontend/assets/img/faces/sahas1.jpg')}}"/>
+                                                     src="{{url('frontend/assets/img/faces/susan.jpg')}}"/>
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-description">
-                                                    "Don't Trust Me,
-                                                    Otherwise I need to Trust You!"
+                                                    "Push yourself,
+                                                    because no one else is going to do it for you."
 
                                                 </h5>
                                                 <div class="card-footer">
-                                                    <h4 class="card-title"><b>Sahas Dangol</b></h4>
-                                                    <h6 class="card-category">“Well, I’m from Lubhoo, Lalitpur.
-                                                        I was born in 1995 A.D. and spent most of my childhood hunched
+                                                    <h4 class="card-title"><b>Susan Chikanbanjar</b></h4>
+                                                    <h6 class="card-category">“Well, I’m from Chyamasingh, Bhaktapur.
+                                                        I was born in 1997 A.D. and spent most of my childhood hunched
                                                         over a Computers, striving to become a Software Engineer (which
                                                         I now am).
-                                                        I love the travellers – I’m and book reeader and Music Lover.
+                                                        I love the travellers – I’m and book reader and Music Lover.
                                                         I really love to Coding with my Logics.”</h6>
                                                     <div class="card-stars">
                                                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -342,12 +351,12 @@
                                         <div class="card card-testimonial card-plain">
                                             <div class="card-avatar">
                                                 <img class="img"
-                                                     src="{{url('frontend/assets/img/faces/sahas2.jpg')}}"/>
+                                                     src="{{url('frontend/assets/img/faces/susan4.jpg')}}"/>
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-description">
-                                                    "Being Alive is so Expensive. <br>
-                                                    Feeling Alive is more..."
+                                                    "It’s Not Whether You Get Knocked Down,
+                                                    It’s Whether You Get Up."
                                                 </h5>
                                                 <div class="card-footer">
                                                     <h5 class="card-title"><b>About Me</b></h5>
@@ -366,11 +375,12 @@
                                         <div class="card card-testimonial card-plain">
                                             <div class="card-avatar">
                                                 <img class="img"
-                                                     src="{{url('frontend/assets/img/faces/sahas3.jpg')}}"/>
+                                                     src="{{url('frontend/assets/img/faces/susan2.jpg')}}"/>
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-description">
-                                                    "Life is too short to wake up in the morning with Regrets..."
+                                                    "Failure Will Never Overtake Me
+                                                    If My Determination To Succeed Is Strong Enough."
                                                 </h5>
                                                 <div class="card-footer">
                                                     <h4 class="card-title"><b>Skills</b></h4>
@@ -384,10 +394,10 @@
                                                         <small># PHP with Laravel framework & MYSQL</small>
                                                     </h5>
                                                     <h5>
-                                                        <small># Python with django framework</small>
+                                                        <small># Android</small>
                                                     </h5>
                                                     <h5>
-                                                        <small># Java with Swing</small>
+                                                        <small># Java</small>
                                                     </h5>
                                                 </div>
                                             </div>
@@ -410,21 +420,21 @@
                     <div class="col-md-2 ml-auto">
                         <div class="testimonials-people">
                             <img class="right-first-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/roshan.jpg')}}" alt=""/>
+                                 src="{{url('frontend/assets/img/faces/nishan1.jpg')}}" alt=""/>
                             <img class="right-second-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/biraz.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/saanro.jpg')}}"
                                  alt=""/>
                             <img class="right-third-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/sahas1.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/sarita.jpg')}}"
                                  alt=""/>
                             <img class="right-fourth-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/nabin.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/prem.jpg')}}"
                                  alt=""/>
                             <img class="right-fifth-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/sapna2.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/shreetu.jpg')}}"
                                  alt=""/>
                             <img class="right-sixth-person add-animation"
-                                 src="{{url('frontend/assets/img/faces/aashish.jpg')}}"
+                                 src="{{url('frontend/assets/img/faces/susan5.jpg')}}"
                                  alt=""/>
                         </div>
                     </div>
@@ -463,11 +473,14 @@
                                             </div>
                                             <div class="description">
                                                 <h4 class="info-title">Give me a ring</h4>
-                                                <p> Sahas Dangol
-                                                    <br> +977 9843498012
+                                                <p> Susan Chikanbanjar
+                                                    <br> +977 9843352492
                                                     <br> Mon - Fri, 8:00-22:00
                                                 </p>
                                             </div>
+                                        </div>
+                                        <div style="width: 300px; height: 300px;">
+
                                         </div>
                                     </div>
                                 </div>
@@ -526,6 +539,7 @@
                                         </div>
                                     </form>
                                 </div>
+
                             </div>
                         </div>
                     </div>

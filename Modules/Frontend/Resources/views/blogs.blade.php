@@ -19,7 +19,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6  ml-auto mr-auto">
-                            <h2 class="title">Sahas Blog</h2>
+                            <h2 class="title">Susan's Blog</h2>
                             <h3 class="description">Welcome</h3>
                         </div>
                     </div>

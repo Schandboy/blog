@@ -9,9 +9,7 @@
                     <li>
                         <a href="{{url('/')}}#blogs">Blog</a>
                     </li>
-                    <li>
-                        <a href="https://www.msrsn.com" target="_blank">MSRSN School</a>
-                    </li>
+
                 </ul>
             </nav>
             <div class="credits ml-auto">
