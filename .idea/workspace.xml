@@ -2,56 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efb2a01d-8a7d-4d94-9628-fd163df32673" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blogs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/public/uploads/avatars/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/admin/settings/settings.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/admin/users/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/admin/users/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/admin/users/profile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/includes/disqus.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/includes/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/includes/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/includes/search.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/layouts/frontend.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/results.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/single.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/resources/views/tag.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/FrontendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/FrontendController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Resources/views/blogs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/Resources/views/blogs.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Resources/views/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/Resources/views/includes/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/Resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Gallery/Resources/views/gallery/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Gallery/Resources/views/gallery/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Gallery/Resources/views/gallery/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Gallery/Resources/views/gallery/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs" beforeDir="false" afterPath="$PROJECT_DIR$/blogs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/.idea/blogs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/.idea/blogs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/app/Http/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/app/Http/Controllers/CategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/app/Http/Controllers/FrontEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/app/Http/Controllers/FrontEndController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/resources/views/admin/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/resources/views/admin/posts/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/resources/views/admin/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/resources/views/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/resources/views/includes/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/circle.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/javascript.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/map.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/mapper.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/marker.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/overlay.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/polygon.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/polyline.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/rectangle.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cornford/googlmapper/streetview.blade.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Frontend/Resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -80,17 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="229" column="70" selection-start-line="229" selection-start-column="70" selection-end-line="229" selection-end-column="70" />
+            <state relative-caret-position="2788">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -129,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -165,11 +125,11 @@
         <option value="$PROJECT_DIR$/Modules/Frontend/Resources/views/includes/navbar.blade.php" />
         <option value="$PROJECT_DIR$/storage/framework/views/761de1fe14213d88a5ed75ab336f50f44f536fed.php" />
         <option value="$PROJECT_DIR$/config/googlmapper.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/FrontendController.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/Modules/Frontend/Resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
       </list>
     </option>
   </component>
@@ -265,12 +225,6 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/silviolleite/laravelpwa" />
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
-      <path value="$PROJECT_DIR$/vendor/tightenco/collect" />
-      <path value="$PROJECT_DIR$/vendor/bluevertex/mapbox-api-laravel" />
-      <path value="$PROJECT_DIR$/vendor/jmikola/geojson" />
-      <path value="$PROJECT_DIR$/vendor/kitetail/zttp" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -368,19 +322,6 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="bluevertex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="bluevertex" type="462c0819:PsiDirectoryNode" />
-              <item name="mapbox-api-laravel" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -425,16 +366,15 @@
       <workItem from="1561369353684" duration="1074000" />
       <workItem from="1561525198440" duration="1407000" />
       <workItem from="1561873454406" duration="10999000" />
-      <workItem from="1561956659916" duration="6513000" />
+      <workItem from="1561956659916" duration="7276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19993000" />
+    <option name="totallyTimeSpent" value="20756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -545,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Frontend/Http/Controllers/FrontendController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -569,17 +502,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="229" column="70" selection-start-line="229" selection-start-column="70" selection-end-line="229" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -598,6 +524,20 @@
             <element signature="e#31122#31158#0#HTML" expanded="true" />
             <element signature="e#31190#35408#0#HTML" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
