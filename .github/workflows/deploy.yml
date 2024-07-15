@@ -16,9 +16,10 @@ jobs:
     - name: Deploy to Server
       uses: appleboy/ssh-action@master
       with:
-        host: ${{ secrets.SERVER_HOST }}
-        username: ${{ secrets.SERVER_USER }}
-        key: ${{ secrets.SERVER_SSH_KEY }}
+        host: ${{ secrets.SSH_SERVER_HOST }}
+        username: ${{ secrets.SSH_SERVER_USER }}
+        key: ${{ secrets.SSH_SERVER_KEY }}
+        port: ${{ secrets.SSH_SERVER_PORT }}
         script: |
           cd public_html/susanpblog
           git pull origin master
