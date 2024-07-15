@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
-
+  
     - name: Deploy to Server
       uses: appleboy/ssh-action@master
       with:
@@ -23,8 +23,3 @@ jobs:
         script: |
           cd public_html/susanpblog
           git pull origin master
-          composer install --no-interaction --prefer-dist --optimize-autoloader
-          php artisan migrate --force
-          php artisan config:cache
-          php artisan route:cache
-          php artisan view:cache
