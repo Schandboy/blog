@@ -1,4 +1,4 @@
-name: Deploy to Live Server
+name: Pull on server
 
 on:
   push:
@@ -6,20 +6,22 @@ on:
       - master
 
 jobs:
-  deploy:
+  build:
+    name: Build
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
-  
-    - name: Deploy to Server
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.SSH_SERVER_HOST }}
-        username: ${{ secrets.SSH_SERVER_USER }}
-        key: ${{ secrets.SSH_SERVER_KEY }}
-        port: ${{ secrets.SSH_SERVER_PORT }}
-        script: |
-          cd public_html/susanpblog
-          git pull origin master
+      - name: Setup the ssh action
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          # Uncomment followigs to read secrets from secrets, for now i'm hardcoding here
+          #host: ${{ secrets.SSH_HOST }}
+          #username: ${{ secrets.SSH_USERNAME }}
+          #password: ${{ secrets.SSH_PASSWORD }}
+          #port: ${{ secrets.SSH_PORT }}
+          host: grace.mysecurecloudserver.com
+          username: shuvautsc
+          password: Fp6-We(0vTn!
+          port: 1980
+          script: |
+            cd public_html/susanpblog
+            git pull origin master
